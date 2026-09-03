@@ -6,7 +6,21 @@ This project explores prompt engineering patterns and LLM tool-calling patterns 
 
 Before running the notebook, make sure Ollama is installed and the Qwen model is running locally.
 
-Example:
+Create a local `.env` file from `.env.example` and update the values if needed:
+
+```bash
+cp .env.example .env
+```
+
+Example `.env` values:
+
+```env
+OLLAMA_BASE_URL=http://localhost:11434/v1
+OLLAMA_API_KEY=ollama
+OLLAMA_MODEL=qwen2.5:1.5b
+```
+
+Then start the model locally:
 
 ```bash
 ollama pull qwen2.5:1.5b
