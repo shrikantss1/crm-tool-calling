@@ -54,6 +54,9 @@ The examples are designed to help compare how different prompt structures affect
 
 | Technique | Best For | Example |
 | --- | --- | --- |
+| Zero-shot | General tasks with clear instructions | "Classify this review as Positive, Negative, or Neutral." |
+| One-shot | Fast pattern learning with a single example | "Review: 'Great movie!' -> Positive. Now classify: 'The plot was slow.'" |
+| Few-shot | Better structure and consistency with multiple examples | "Examples: positive, negative, and neutral reviews followed by a new review." |
 | CoT | Quick decisions, simple reasoning | "What's the best time to launch?" |
 | SC-CoT | Risk-sensitive decisions, consensus needed | "Should we hire this candidate?" |
 | ToT | Complex problems, exploring options | "How should we restructure the team?" |
