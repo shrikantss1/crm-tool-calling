@@ -2,6 +2,19 @@
 
 This project explores prompt engineering patterns and LLM tool-calling patterns using a local Ollama setup with the OpenAI-compatible client.
 
+## Prerequisites
+
+Before running the notebook, make sure Ollama is installed and the Qwen model is running locally.
+
+Example:
+
+```bash
+ollama pull qwen2.5:1.5b
+ollama run qwen2.5:1.5b
+```
+
+The notebook expects the local Ollama server to be available at the base URL configured in `.env`.
+
 ## Notebook summary
 
 The notebook in `modules/1_prompts/prompt_types.ipynb` demonstrates several prompting styles and how to evaluate them in a reusable way:
