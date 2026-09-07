@@ -216,3 +216,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+kaggle_download.py
+dataset_metadata.ipynb
